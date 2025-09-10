@@ -1,0 +1,61 @@
+2025-09-10 19:45:17,896 - INFO - Starting PDF loading process
+2025-09-10 19:45:17,897 - INFO - Loading PDF files from directory: data/
+2025-09-10 19:45:24,765 - INFO - Loaded 759 documents from PDF files
+2025-09-10 19:45:24,766 - ERROR - Failed to process and store PDFs | Error: No documents found | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/data_loader.py | Line: 15
+2025-09-10 19:46:09,901 - INFO - Starting PDF loading process
+2025-09-10 19:46:09,901 - INFO - Loading PDF files from directory: data/
+2025-09-10 19:46:16,368 - INFO - Loaded 759 documents from PDF files
+2025-09-10 19:46:16,368 - INFO - Loaded 759 documents
+2025-09-10 19:46:16,368 - INFO - Starting text chunking process
+2025-09-10 19:46:16,450 - INFO - Created 7080 text chunks from documents
+2025-09-10 19:46:16,451 - INFO - Created 7080 text chunks
+2025-09-10 19:46:16,451 - INFO - Initializing OpenAI Embedding Model
+2025-09-10 19:46:16,705 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-10 19:46:16,705 - INFO - Creating new FAISS vector store at vectorstore/db_faiss
+2025-09-10 19:46:24,501 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 19:46:29,680 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 19:46:35,666 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 19:46:40,587 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 19:46:46,355 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 19:46:52,259 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 19:46:58,172 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 19:47:02,027 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 19:47:03,195 - INFO - Loading faiss.
+2025-09-10 19:47:03,313 - INFO - Successfully loaded faiss.
+2025-09-10 19:47:03,318 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-09-10 19:47:03,847 - INFO - Saving FAISS vector store to vectorstore/db_faiss
+2025-09-10 19:47:03,903 - INFO - FAISS vector store saved successfully
+2025-09-10 19:47:03,905 - INFO - Successfully saved text chunks to vector store
+2025-09-10 19:48:15,148 - INFO - Processing medical query: I have a headache and fever
+2025-09-10 19:48:15,148 - INFO - Loading vector store for query processing
+2025-09-10 19:48:15,148 - INFO - Initializing OpenAI Embedding Model
+2025-09-10 19:48:15,343 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-10 19:48:15,343 - INFO - Loading existing FAISS vector store from vectorstore/db_faiss
+2025-09-10 19:48:15,345 - INFO - Loading faiss.
+2025-09-10 19:48:15,377 - INFO - Successfully loaded faiss.
+2025-09-10 19:48:15,380 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-09-10 19:48:15,422 - INFO - Initializing ChatOpenAI model
+2025-09-10 19:48:15,458 - INFO - QA chain initialized successfully
+2025-09-10 19:48:16,050 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 19:48:18,479 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-10 19:48:18,519 - INFO - Medical advice generated successfully
+2025-09-10 19:48:18,528 - INFO - Processing medical query: What should I do for a sore throat?
+2025-09-10 19:48:18,528 - INFO - Loading vector store for query processing
+2025-09-10 19:48:18,528 - INFO - Initializing OpenAI Embedding Model
+2025-09-10 19:48:18,579 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-10 19:48:18,579 - INFO - Loading existing FAISS vector store from vectorstore/db_faiss
+2025-09-10 19:48:18,605 - INFO - Initializing ChatOpenAI model
+2025-09-10 19:48:18,606 - INFO - QA chain initialized successfully
+2025-09-10 19:48:19,667 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 19:48:24,688 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-10 19:48:24,708 - INFO - Medical advice generated successfully
+2025-09-10 19:48:24,719 - INFO - Processing medical query: I'm feeling dizzy and nauseous
+2025-09-10 19:48:24,719 - INFO - Loading vector store for query processing
+2025-09-10 19:48:24,719 - INFO - Initializing OpenAI Embedding Model
+2025-09-10 19:48:24,781 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-10 19:48:24,782 - INFO - Loading existing FAISS vector store from vectorstore/db_faiss
+2025-09-10 19:48:24,807 - INFO - Initializing ChatOpenAI model
+2025-09-10 19:48:24,807 - INFO - QA chain initialized successfully
+2025-09-10 19:48:26,286 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 19:48:30,378 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-10 19:48:30,391 - INFO - Medical advice generated successfully
