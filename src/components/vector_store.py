@@ -22,11 +22,13 @@ def load_vector_store():
             )
         else:
             logger.warning(f"FAISS vector store path {DB_FAISS_PATH} does not exist.")
+            return None
     
     except Exception as e:
         error_message = CustomException("Failed to load FAISS vector store",e)
         logger.error(str(error_message))
-        
+        return None
+
         
         
     

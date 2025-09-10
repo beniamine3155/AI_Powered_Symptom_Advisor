@@ -59,3 +59,37 @@
 2025-09-10 19:48:26,286 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
 2025-09-10 19:48:30,378 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-09-10 19:48:30,391 - INFO - Medical advice generated successfully
+2025-09-10 20:13:42,345 - INFO - Loadin vector store for query validation
+2025-09-10 20:13:42,345 - INFO - Initializing OpenAI Embedding Model
+2025-09-10 20:13:42,511 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-10 20:13:42,511 - INFO - Loading existing FAISS vector store from vectorstore/db_faiss
+2025-09-10 20:13:42,514 - INFO - Loading faiss.
+2025-09-10 20:13:42,553 - INFO - Successfully loaded faiss.
+2025-09-10 20:13:42,557 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-09-10 20:13:42,603 - INFO - Initializing ChatOpenAI model
+2025-09-10 20:13:42,634 - INFO - Query validation chain initialized successfully
+2025-09-10 20:20:59,299 - INFO - Initializing OpenAI Embedding Model
+2025-09-10 20:20:59,462 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-10 20:20:59,462 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-10 20:20:59,465 - INFO - Loading faiss.
+2025-09-10 20:20:59,496 - INFO - Successfully loaded faiss.
+2025-09-10 20:20:59,499 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-09-10 20:21:00,175 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 20:21:31,356 - INFO - Initializing OpenAI Embedding Model
+2025-09-10 20:21:31,509 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-10 20:21:31,509 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-10 20:21:31,511 - INFO - Loading faiss.
+2025-09-10 20:21:31,522 - INFO - Successfully loaded faiss.
+2025-09-10 20:21:31,524 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-09-10 20:21:34,557 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 20:21:35,067 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 20:21:35,885 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 20:21:38,084 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 20:21:38,866 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-10 20:22:06,761 - INFO - Initializing OpenAI Embedding Model
+2025-09-10 20:22:06,909 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-10 20:22:06,909 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-10 20:22:06,911 - INFO - Loading faiss.
+2025-09-10 20:22:06,922 - INFO - Successfully loaded faiss.
+2025-09-10 20:22:06,925 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-09-10 20:22:07,837 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
