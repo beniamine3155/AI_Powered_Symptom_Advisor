@@ -1,0 +1,60 @@
+2025-09-13 20:06:28,981 - INFO - Initializing AI Symptom Advisor...
+2025-09-13 20:06:28,981 - INFO - Loadin vector store for query validation
+2025-09-13 20:06:28,981 - INFO - Initializing OpenAI Embedding Model
+2025-09-13 20:06:28,981 - ERROR - Failed to initialize embedding model | Error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/embedding.py | Line: 12
+2025-09-13 20:06:28,981 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-13 20:06:28,982 - INFO - Loading faiss.
+2025-09-13 20:06:29,011 - INFO - Successfully loaded faiss.
+2025-09-13 20:06:29,047 - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-09-13 20:06:29,047 - ERROR - Failed to initialize LLM model | Error: OpenAI API key is not set in environment variables. | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/llm.py | Line: 13
+2025-09-13 20:06:29,047 - ERROR - Failed to initialize query validation chain | Error: LLM model could not be initialized for query validation | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/retriever.py | Line: 48
+2025-09-13 20:06:29,049 - ERROR - Failed to initialize AI Symptom Advisor
+2025-09-13 20:06:29,050 - INFO - Starting AI-Powered Symptom Advisor on 127.0.0.1:8001
+2025-09-13 20:06:29,074 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2025-09-13 20:06:29,074 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 20:06:29,075 - INFO -  * Restarting with stat
+2025-09-13 20:06:30,745 - INFO - Initializing AI Symptom Advisor...
+2025-09-13 20:06:30,745 - INFO - Loadin vector store for query validation
+2025-09-13 20:06:30,745 - INFO - Initializing OpenAI Embedding Model
+2025-09-13 20:06:30,745 - ERROR - Failed to initialize embedding model | Error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/embedding.py | Line: 12
+2025-09-13 20:06:30,745 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-13 20:06:30,746 - INFO - Loading faiss.
+2025-09-13 20:06:30,757 - INFO - Successfully loaded faiss.
+2025-09-13 20:06:30,791 - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-09-13 20:06:30,791 - ERROR - Failed to initialize LLM model | Error: OpenAI API key is not set in environment variables. | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/llm.py | Line: 13
+2025-09-13 20:06:30,791 - ERROR - Failed to initialize query validation chain | Error: LLM model could not be initialized for query validation | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/retriever.py | Line: 48
+2025-09-13 20:06:30,794 - ERROR - Failed to initialize AI Symptom Advisor
+2025-09-13 20:06:30,794 - INFO - Starting AI-Powered Symptom Advisor on 127.0.0.1:8001
+2025-09-13 20:06:30,810 - WARNING -  * Debugger is active!
+2025-09-13 20:06:30,825 - INFO -  * Debugger PIN: 102-551-795
+2025-09-13 20:07:26,776 - INFO - Initializing AI Symptom Advisor...
+2025-09-13 20:07:26,776 - INFO - Loadin vector store for query validation
+2025-09-13 20:07:26,776 - INFO - Initializing OpenAI Embedding Model
+2025-09-13 20:07:26,776 - ERROR - Failed to initialize embedding model | Error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/embedding.py | Line: 12
+2025-09-13 20:07:26,776 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-13 20:07:26,777 - INFO - Loading faiss.
+2025-09-13 20:07:26,802 - INFO - Successfully loaded faiss.
+2025-09-13 20:07:26,852 - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-09-13 20:07:26,853 - ERROR - Failed to initialize LLM model | Error: OpenAI API key is not set in environment variables. | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/llm.py | Line: 13
+2025-09-13 20:07:26,853 - ERROR - Failed to initialize query validation chain | Error: LLM model could not be initialized for query validation | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/retriever.py | Line: 48
+2025-09-13 20:07:26,855 - ERROR - Failed to initialize AI Symptom Advisor
+2025-09-13 20:07:26,856 - INFO - Starting AI-Powered Symptom Advisor on 127.0.0.1:8001
+2025-09-13 20:07:26,879 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+2025-09-13 20:07:26,879 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 20:07:26,879 - INFO -  * Restarting with stat
+2025-09-13 20:07:28,478 - INFO - Initializing AI Symptom Advisor...
+2025-09-13 20:07:28,478 - INFO - Loadin vector store for query validation
+2025-09-13 20:07:28,478 - INFO - Initializing OpenAI Embedding Model
+2025-09-13 20:07:28,478 - ERROR - Failed to initialize embedding model | Error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/embedding.py | Line: 12
+2025-09-13 20:07:28,478 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-13 20:07:28,479 - INFO - Loading faiss.
+2025-09-13 20:07:28,489 - INFO - Successfully loaded faiss.
+2025-09-13 20:07:28,528 - WARNING - `embedding_function` is expected to be an Embeddings object, support for passing in a function will soon be removed.
+2025-09-13 20:07:28,528 - ERROR - Failed to initialize LLM model | Error: OpenAI API key is not set in environment variables. | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/llm.py | Line: 13
+2025-09-13 20:07:28,528 - ERROR - Failed to initialize query validation chain | Error: LLM model could not be initialized for query validation | Error: None | File: Unknown File | Line: Unknown Line | File: /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/components/retriever.py | Line: 48
+2025-09-13 20:07:28,531 - ERROR - Failed to initialize AI Symptom Advisor
+2025-09-13 20:07:28,532 - INFO - Starting AI-Powered Symptom Advisor on 127.0.0.1:8001
+2025-09-13 20:07:28,548 - WARNING -  * Debugger is active!
+2025-09-13 20:07:28,557 - INFO -  * Debugger PIN: 102-551-795

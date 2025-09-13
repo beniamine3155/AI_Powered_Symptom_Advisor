@@ -51,30 +51,6 @@
             opacity: 0.8;
         }
 
-        .status-indicator {
-            position: absolute;
-            right: 20px;
-            top: 50%;
-            transform: translateY(-50%);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .status-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: #27ae60;
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0% { opacity: 1; }
-            50% { opacity: 0.5; }
-            100% { opacity: 1; }
-        }
-
         .chat-messages {
             flex: 1;
             padding: 20px;
@@ -315,10 +291,6 @@
         <div class="chat-header">
             <h1>🏥 AI-Powered Symptom Advisor</h1>
             <p>Get intelligent medical guidance based on your symptoms</p>
-            <div class="status-indicator">
-                <div class="status-dot"></div>
-                <span id="status-text">Online</span>
-            </div>
         </div>
 
         <div class="chat-messages" id="chatMessages">
@@ -359,10 +331,8 @@
                 this.sendButton = document.getElementById('sendButton');
                 this.chatForm = document.getElementById('chatForm');
                 this.typingIndicator = document.getElementById('typingIndicator');
-                this.statusText = document.getElementById('status-text');
                 
                 this.initializeEventListeners();
-                this.checkHealth();
             }
 
             initializeEventListeners() {
@@ -386,24 +356,6 @@
             adjustTextareaHeight() {
                 this.messageInput.style.height = 'auto';
                 this.messageInput.style.height = Math.min(this.messageInput.scrollHeight, 100) + 'px';
-            }
-
-            async checkHealth() {
-                try {
-                    const response = await fetch('/health');
-                    const data = await response.json();
-                    
-                    if (data.status === 'healthy') {
-                        this.statusText.textContent = 'Online';
-                        this.statusText.style.color = '#27ae60';
-                    } else {
-                        this.statusText.textContent = 'Limited';
-                        this.statusText.style.color = '#f39c12';
-                    }
-                } catch (error) {
-                    this.statusText.textContent = 'Offline';
-                    this.statusText.style.color = '#e74c3c';
-                }
             }
 
             async sendMessage() {

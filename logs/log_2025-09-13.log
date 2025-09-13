@@ -1,0 +1,88 @@
+2025-09-13 20:19:34,523 - INFO - Loadin vector store for query validation
+2025-09-13 20:19:34,523 - INFO - Initializing OpenAI Embedding Model
+2025-09-13 20:19:34,668 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-13 20:19:34,668 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-13 20:19:34,670 - INFO - Loading faiss.
+2025-09-13 20:19:34,696 - INFO - Successfully loaded faiss.
+2025-09-13 20:19:34,729 - INFO - Initializing ChatOpenAI model
+2025-09-13 20:19:34,760 - INFO - Query validation chain initialized successfully
+2025-09-13 20:19:34,788 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://172.16.0.43:8001
+2025-09-13 20:19:34,789 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 20:19:34,789 - INFO -  * Restarting with stat
+2025-09-13 20:19:36,441 - INFO - Loadin vector store for query validation
+2025-09-13 20:19:36,441 - INFO - Initializing OpenAI Embedding Model
+2025-09-13 20:19:36,547 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-13 20:19:36,547 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-13 20:19:36,547 - INFO - Loading faiss.
+2025-09-13 20:19:36,560 - INFO - Successfully loaded faiss.
+2025-09-13 20:19:36,589 - INFO - Initializing ChatOpenAI model
+2025-09-13 20:19:36,621 - INFO - Query validation chain initialized successfully
+2025-09-13 20:19:36,638 - WARNING -  * Debugger is active!
+2025-09-13 20:19:36,651 - INFO -  * Debugger PIN: 102-551-795
+2025-09-13 20:20:38,406 - INFO - 127.0.0.1 - - [13/Sep/2025 20:20:38] "GET / HTTP/1.1" 200 -
+2025-09-13 20:20:38,594 - INFO - 127.0.0.1 - - [13/Sep/2025 20:20:38] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-09-13 20:20:38,640 - INFO - 127.0.0.1 - - [13/Sep/2025 20:20:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-13 20:20:48,200 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-13 20:22:29,044 - INFO - Loadin vector store for query validation
+2025-09-13 20:22:29,044 - INFO - Initializing OpenAI Embedding Model
+2025-09-13 20:22:29,184 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-13 20:22:29,184 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-13 20:22:29,185 - INFO - Loading faiss.
+2025-09-13 20:22:29,212 - INFO - Successfully loaded faiss.
+2025-09-13 20:22:29,253 - INFO - Initializing ChatOpenAI model
+2025-09-13 20:22:29,285 - INFO - Query validation chain initialized successfully
+2025-09-13 20:22:29,310 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://172.16.0.43:8001
+2025-09-13 20:22:29,310 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-13 20:22:29,311 - INFO -  * Restarting with stat
+2025-09-13 20:22:30,935 - INFO - Loadin vector store for query validation
+2025-09-13 20:22:30,935 - INFO - Initializing OpenAI Embedding Model
+2025-09-13 20:22:31,043 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-13 20:22:31,043 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-13 20:22:31,044 - INFO - Loading faiss.
+2025-09-13 20:22:31,055 - INFO - Successfully loaded faiss.
+2025-09-13 20:22:31,094 - INFO - Initializing ChatOpenAI model
+2025-09-13 20:22:31,126 - INFO - Query validation chain initialized successfully
+2025-09-13 20:22:31,143 - WARNING -  * Debugger is active!
+2025-09-13 20:22:31,157 - INFO -  * Debugger PIN: 102-551-795
+2025-09-13 20:23:05,936 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:05] "GET / HTTP/1.1" 200 -
+2025-09-13 20:23:06,100 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:06] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-09-13 20:23:09,877 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:09] "GET / HTTP/1.1" 200 -
+2025-09-13 20:23:09,936 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:09] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-09-13 20:23:10,648 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:10] "GET / HTTP/1.1" 200 -
+2025-09-13 20:23:10,677 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:10] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-09-13 20:23:11,346 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:11] "GET / HTTP/1.1" 200 -
+2025-09-13 20:23:11,375 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:11] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-09-13 20:23:11,578 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:11] "GET / HTTP/1.1" 200 -
+2025-09-13 20:23:11,605 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:11] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-09-13 20:23:11,795 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:11] "GET / HTTP/1.1" 200 -
+2025-09-13 20:23:11,823 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:11] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-09-13 20:23:14,724 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-13 20:23:17,480 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 20:23:17,496 - INFO - 127.0.0.1 - - [13/Sep/2025 20:23:17] "POST /chat HTTP/1.1" 200 -
+2025-09-13 20:24:33,181 - INFO - 127.0.0.1 - - [13/Sep/2025 20:24:33] "GET / HTTP/1.1" 200 -
+2025-09-13 20:24:33,255 - INFO - 127.0.0.1 - - [13/Sep/2025 20:24:33] "[33mGET /health HTTP/1.1[0m" 404 -
+2025-09-13 20:24:36,334 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-13 20:24:40,343 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 20:24:40,356 - INFO - 127.0.0.1 - - [13/Sep/2025 20:24:40] "POST /chat HTTP/1.1" 200 -
+2025-09-13 20:25:39,221 - INFO - 127.0.0.1 - - [13/Sep/2025 20:25:39] "GET / HTTP/1.1" 200 -
+2025-09-13 20:25:42,280 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-13 20:25:44,325 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-13 20:25:44,330 - INFO - 127.0.0.1 - - [13/Sep/2025 20:25:44] "POST /chat HTTP/1.1" 200 -
+2025-09-13 20:26:04,578 - INFO -  * Detected change in '/Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/src/application.py', reloading
+2025-09-13 20:26:05,168 - INFO -  * Restarting with stat
+2025-09-13 20:26:07,775 - INFO - Loadin vector store for query validation
+2025-09-13 20:26:07,775 - INFO - Initializing OpenAI Embedding Model
+2025-09-13 20:26:07,923 - INFO - OpenAI Embedding Model initialized successfully
+2025-09-13 20:26:07,923 - INFO - Loading existing FAISS vector store from /Users/beniaminenahid/Desktop/AI_Powered_Symptom_Advisor/vectorstore/db_faiss
+2025-09-13 20:26:07,924 - INFO - Loading faiss.
+2025-09-13 20:26:07,947 - INFO - Successfully loaded faiss.
+2025-09-13 20:26:07,981 - INFO - Initializing ChatOpenAI model
+2025-09-13 20:26:08,038 - INFO - Query validation chain initialized successfully
+2025-09-13 20:26:08,059 - WARNING -  * Debugger is active!
+2025-09-13 20:26:08,069 - INFO -  * Debugger PIN: 102-551-795
